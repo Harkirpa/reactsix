@@ -17,6 +17,7 @@ const AddNewStudent = () => {
     const handleClick=()=>{
         ContextData.stuName.push(newStu)
         Nav('/student')
+    }
         return (
             <form className='form'>
             <div className='lform'>
@@ -31,7 +32,6 @@ const AddNewStudent = () => {
         </form>
           )
         }
-    }
 
 
 export default AddNewStudent
