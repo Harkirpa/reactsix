@@ -21,12 +21,18 @@ const AddNewStudent = () => {
         return (
             <form className='form'>
             <div className='lform'>
-                <label htmlFor='name'>Name</label>
             <input type='text' id='name' placeholder='Name' name='Name' onChange={handleChange} />
-                  <input type='text' id='age' placeholder='Age' name='Age' onChange={handleChange} />
-                  <input type='text' id='course' placeholder='Course' name='Course' onChange={handleChange} />
-                  <input type='text' id='batch' placeholder='Batch' name='Batch'onChange={handleChange} /> 
+            <label htmlFor='name'>Name</label>
             </div>
+            <div className='lform2'>
+                  <input type='text' id='age' placeholder='Age' name='Age' onChange={handleChange} />
+                  </div>
+                  <div className='lform3'>
+                  <input type='text' id='course' placeholder='Course' name='Course' onChange={handleChange} />
+                  </div>
+                  <div className='lform4'>
+                  <input type='text' id='batch' placeholder='Batch' name='Batch'onChange={handleChange} /> 
+                  </div>
             <button className='btn2' type='button' onClick={handleClick}>Add New Student</button>
             <button className='btn3' type='button' onClick={()=>Nav('/student')}>Cancel</button>
         </form>

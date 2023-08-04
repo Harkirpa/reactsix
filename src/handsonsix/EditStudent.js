@@ -28,8 +28,14 @@ const EditStudent = () => {
         <div className='lform'>
             <label htmlFor='name'>Name</label>
         <input type='text' id='name' placeholder={ContextData.stuName[Indexvalue].Name} name='Name' onChange={handleChange} />
+        </div>
+            <div className='lform2'>
               <input type='text' id='age' placeholder={ContextData.stuName[Indexvalue].Age} name='Age' onChange={handleChange} />
+              </div>
+              <div className='lform3'>
               <input type='text' id='course' placeholder={ContextData.stuName[Indexvalue].Course} name='Course' onChange={handleChange} />
+              </div>
+              <div className='lform4'>
               <input type='text' id='batch' placeholder={ContextData.stuName[Indexvalue].Batch}  name='Batch'onChange={handleChange} /> 
         </div>
         <button className='btn2' type='button' onClick={handleClick}>Update Student</button>
