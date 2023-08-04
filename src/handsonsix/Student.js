@@ -12,10 +12,8 @@ return (
    
     <h1 className='home'>Student Details</h1>
     <button className='btn' onClick={()=>Navi('/addnewstudent')}>Add New Student</button>
-    <br/>
-    <br/>
-    <center>
-    <table border='1'>
+   
+    <table>
       <tr>
           <th>Name</th>
           <th>Age</th>
@@ -38,7 +36,7 @@ return (
           )
       }
     </table>
-    </center>
+   
   </div>
 )
 }

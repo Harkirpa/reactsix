@@ -32,8 +32,8 @@ const EditStudent = () => {
               <input type='text' id='course' placeholder={ContextData.stuName[Indexvalue].Course} name='Course' onChange={handleChange} />
               <input type='text' id='batch' placeholder={ContextData.stuName[Indexvalue].Batch}  name='Batch'onChange={handleChange} /> 
         </div>
-        <button className='btn' type='button' onClick={handleClick}>Update Student</button>
-        <button className='btn' type='button' onClick={()=>Navi('/student')}>Cancel</button>
+        <button className='btn2' type='button' onClick={handleClick}>Update Student</button>
+        <button className='btn3' type='button' onClick={()=>Navi('/student')}>Cancel</button>
     </form>
     </>
   )
