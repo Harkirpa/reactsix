@@ -9,10 +9,8 @@ function Student() {
   
 return (
   <div>
-   
-    <h1 className='home'>Student Details</h1>
+   <h1 className='home'>Student Details</h1>
     <button className='btn' onClick={()=>Navi('/addnewstudent')}>Add New Student</button>
-   
     <table>
       <tr>
           <th>Name</th>
