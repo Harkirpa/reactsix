@@ -22,7 +22,7 @@ const AddNewStudent = () => {
             <form className='form'>
             <div className='lform'>
             <input type='text' id='name' placeholder='Name' name='Name' onChange={handleChange} />
-            <label htmlFor='name'>Name</label>
+            
             </div>
             <div className='lform2'>
                   <input type='text' id='age' placeholder='Age' name='Age' onChange={handleChange} />

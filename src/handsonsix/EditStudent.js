@@ -26,7 +26,7 @@ const EditStudent = () => {
     <>
     <form className='form'>
         <div className='lform'>
-            <label htmlFor='name'>Name</label>
+          
         <input type='text' id='name' placeholder={ContextData.stuName[Indexvalue].Name} name='Name' onChange={handleChange} />
         </div>
             <div className='lform2'>
